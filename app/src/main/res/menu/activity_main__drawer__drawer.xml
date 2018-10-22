@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_homepage"
+            android:icon="@drawable/ic_drawer_home"
+            android:title="Homepage" />
+        <item
+            android:id="@+id/nav_sports"
+            android:icon="@drawable/ic_drawer_sports"
+            android:title="Sports" />
+        <item
+            android:id="@+id/nav_plan"
+            android:icon="@drawable/ic_drawer_plan"
+            android:title="My Training" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_drawer_calender"
+            android:title="Schedule" />
+        <item
+            android:id="@+id/nav_community"
+            android:icon="@drawable/ic_drawer_community"
+            android:title="Community" />
+        <item
+            android:id="@+id/nav_management"
+            android:icon="@drawable/ic_drawer_home"
+            android:title="Management" />
+
+
+    </group>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_log_out"
+                android:title="Log Out" />
+            <item
+                android:id="@+id/nav_privacy"
+                android:icon="@drawable/ic_privacy"
+                android:title="Privacy" />
+        </menu>
+    </item>
+
+</menu>
