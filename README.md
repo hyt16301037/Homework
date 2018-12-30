@@ -1,4 +1,4 @@
 # Homework
 Homeworks of Android Development Course. 16301037
 
-This is only a test of commit changes and pull.
+最后几次作业将在12月30日晚上提交
